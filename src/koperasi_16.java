@@ -17,7 +17,6 @@ public class koperasi_16 {
         int sisa_kas_seminggu;
 
         Scanner aldo = new Scanner(System.in);
-
         System.out.print("Masukkan jumlah paket yang terjual: ");
         paket_terjual = aldo.nextInt();
 
