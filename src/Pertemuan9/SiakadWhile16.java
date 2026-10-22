@@ -6,7 +6,7 @@ public class SiakadWhile16 {
         Scanner aldo = new Scanner(System.in);
 
         double nilai;
-        int jumlahMahasiswa = 5;
+        int jumlahMahasiswa = 21;
 
         int i = 0;
         while (i < jumlahMahasiswa) {
