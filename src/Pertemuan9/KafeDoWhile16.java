@@ -6,7 +6,7 @@ public class KafeDoWhile16 {
         Scanner aldo = new Scanner(System.in);
 
         int kopi, teh, roti;
-        int hargaKopi = 12000, hargaTeh = 7000, hargaRoti = 20000;
+        int hargaKopi = 11000, hargaTeh = 5000, hargaRoti = 19000;
         int totalHarga;
         String namaPelanggan;
 
