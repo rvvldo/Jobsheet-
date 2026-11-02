@@ -16,6 +16,7 @@ public class Triangle16 {
                 System.out.print("*");
                 j++;
             }
+            System.out.println();
             i++;
         }
         aldo.close();
