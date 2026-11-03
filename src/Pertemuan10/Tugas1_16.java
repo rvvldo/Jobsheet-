@@ -10,7 +10,10 @@ public class Tugas1_16 {
 
         int angkaTercetak = 0;
 
-        for(int i = 1; i <= n; i++) {
+        if (n < 1) {
+            System.out.println("Jumlah n minimal 1");
+        } else {
+            for(int i = 1; i <= n; i++) {
             for(int j = 1; j <= i; j++) {
                 System.out.print(j + " ");
                 angkaTercetak++;
@@ -19,5 +22,8 @@ public class Tugas1_16 {
         }
         
         System.out.println("Total angka tercetak: " + angkaTercetak);
+        }
+
+        
     }
 }
