@@ -10,7 +10,10 @@ public class Tugas2_16 {
         int jumlahAngka = 0;
         int pengkali = 1;
 
-        for(int i = 1; i <= n; i++) {
+        if (n < 3) {
+            System.out.println("Jumlah n minimal 3");
+        } else {
+            for(int i = 1; i <= n; i++) {
 
             for(int j = 1; j <= n; j++) {
                 int nilai = j * pengkali;
@@ -21,9 +24,7 @@ public class Tugas2_16 {
             pengkali++;
             System.out.println();
         }
-
-        
-
         System.out.println("Jumlah seluruh angka: " + jumlahAngka);
+        }
     }
 }
