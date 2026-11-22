@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class SortNilai16 {
     public static void main(String[] args) {
-        int[] nilai = {78, 65, 90, 55, 88, 72};
+        int[] nilai = {36, 51, 28, 66, 16, 41};
 
         for (int i = 0; i < nilai.length - 1; i++) {
             for (int j = 0; j < nilai.length - 1 - i; j++) {
